@@ -1,0 +1,111 @@
+
+
+.tabledata{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+th:first-child{
+    width: 20%;
+}
+th:nth-child(2){
+    overflow: hidden;
+    font-size: 18px;
+
+
+}
+th:nth-child(3){
+    width: 20%;
+}
+th:nth-child(4){
+
+}
+
+
+td:first-child{
+    width: 20%;
+}
+td:nth-child(2){
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+
+
+}
+
+
+tr:nth-child(even){
+    background-color: rgba(186, 202, 237, 0.812);
+}
+tr:nth-child(odd){
+    background-color: rgb(220, 234, 177);
+}
+
+
+td:nth-child(3){
+    width: 20%;
+    font-size: 22px;
+}
+
+td:nth-child(4){
+
+}
+
+td:nth-child(4) button{
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 9px;
+    font-size: 16px;
+    background-color: rgb(150, 206, 233);
+
+}
+
+
+
+td:nth-child(4) button:hover{
+    background-color: rgb(90, 186, 199);
+
+}
+
+.btn{
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 9px;
+    font-size: 16px;
+    background-color: rgb(150, 206, 233);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn:hover{
+    background-color: rgb(90, 186, 199);
+
+}
+
+td{
+
+
+}
+.tabledata  th{
+    background-color: #f1c40f;
+    color: black;
+    height: 50px;
+    font-size: 18px;
+
+
+}
+
+.tabledata img{
+    height: 150px;
+}
+
+.trone{
+    /* border: 5px solid rgb(190, 9, 9); */
+
+}

@@ -1,0 +1,63 @@
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container>div{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.sidbar{
+    position: sticky;
+    top:0;
+    left: 0;
+    max-height: 430px;
+    padding: 10px;
+
+}
+.sidbar img{
+    height: 90%;
+}
+.sidbar button{
+    width: 300px;
+    height: 40px;
+    background-color: #ff9f00;
+    border: 0;
+    border-radius: 7px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    cursor: pointer;
+}
+
+.sidbar button:active{
+    background-color: #b1b6be;
+
+}
+.main{
+    height: 600px;
+}
+.main p:nth-child(2){
+    font-size: 32px;
+}
+.main p:nth-child(3){
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+}
+.main p:nth-child(4){
+    color: rgb(15, 81, 143);
+    font-size: 22px;
+    text-align: start;
+    margin-left: 5px;
+}
+.main p:nth-child(4) span{
+    color: blue;
+    font-weight: 700;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,26 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: #f1c40f;
+    gap: 20px;
+}
+.footer > div{
+    /* height: 120px; */
+    /* border: 1px solid #000; */
+    text-align: left;
+}
+.footer h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footer p{
+    font-size: 15px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+.footer >div div span {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* #f1c40f */

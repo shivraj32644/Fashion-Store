@@ -1,0 +1,11 @@
+.baner{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c69c6d;
+}
+.baner h3{
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,41 @@
+.form{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+
+.form > div{
+    width: 50%;
+    margin: auto;
+
+}
+.form input{
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#email{
+width:44% ;
+}
+.form label{
+    margin-top: 90px;
+    font-size: 20px;
+}
+.form button{
+    height: 40px;
+    width: 300px;
+    background-color: #FFC312 ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.form button:active{
+    background-color: #c89c16;
+
+}
+.text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,56 @@
+
+.Navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* justify-content: space-around; */
+    transition: .5s;
+    color: black;
+}
+
+.Links{
+    position: absolute;
+    right: 16px;
+    width: 750px;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    
+}
+.heading{
+    position: absolute;
+    left: 30px;
+    color: black;
+}
+
+
+.Input{
+    position: absolute;
+    left: 320px;
+    height: 30px;
+    width: 300px;
+    transition: .5s;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.353);
+    outline: none;
+    /* box-sizing: border-box; */
+    /* padding: 5px 10px; */
+    color: black;
+}
+.Input:focus {
+    border: 1px solid rgba(25, 19, 213, 0.649);
+    outline: none;
+    border-radius: 5px;
+    /* width: 400px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+}
+
+.Links span{
+    font-size: 22px;
+}
